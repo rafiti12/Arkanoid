@@ -1,0 +1,51 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif;
+}
+
+#canvas_holder {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+}
+
+.menu:hover, .menu:focus {
+    background-color: yellow;
+}
+
+.ui {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    color: red;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+label {
+    position: absolute;
+    font-family: "Open Sans", sans-serif, fixed;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: red;
+}
